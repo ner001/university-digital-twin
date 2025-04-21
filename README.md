@@ -43,13 +43,14 @@ chmod +x create-entities.sh
 ```
 📡 NGSI-v2 API Used
 We use the APPEND action to create multiple entities in Orion:
-
+```bash
 http
 POST /v2/op/update
 With a payload that defines entity types, attributes, and relationships in JSON format.
-
+```
 
 🧠 Example Entities
+```bash
 University ➝ urn:ngsi-ld:University:univ001
 
 Building ➝ urn:ngsi-ld:Building:eng001 (with partOf relationship)
@@ -59,24 +60,24 @@ Classroom ➝ urn:ngsi-ld:Classroom:CR101 (with locatedIn)
 Professor ➝ urn:ngsi-ld:Professor:prof001 (with teachesIn)
 
 Student ➝ urn:ngsi-ld:Student:std001 (with enrolledIn)
+```
 
 📁 Project Structure
 ```bash
-Copier
-Modifier
 university-digital-twin/
 ├── docker-compose.yml        # Orion + MongoDB setup
 ├── create-entities.sh        # Bash script to load entities
 └── README.md                 # This file
 ```
+
 🧩 To-Do / Future Ideas
-Add IoT devices (sensors) to monitor classrooms
+-Add IoT devices (sensors) to monitor classrooms
 
-Add real-time data updates for attendance or schedules
+-Add real-time data updates for attendance or schedules
 
-Build a frontend to visualize entity relationships
+-Build a frontend to visualize entity relationships
 
-Use NGSI-LD for linked data features
+-Use NGSI-LD for linked data features
 
 🧑‍💻 Author
 Created by Nermine Ezzine – feel free to fork, modify and contribute!
