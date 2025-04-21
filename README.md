@@ -70,15 +70,6 @@ university-digital-twin/
 └── README.md                 # This file
 ```
 
-🧩 To-Do / Future Ideas
--Add IoT devices (sensors) to monitor classrooms
-
--Add real-time data updates for attendance or schedules
-
--Build a frontend to visualize entity relationships
-
--Use NGSI-LD for linked data features
-
 🧑‍💻 Author
 Created by Nermine Ezzine – feel free to fork, modify and contribute!
 
