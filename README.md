@@ -46,8 +46,8 @@ We use the APPEND action to create multiple entities in Orion:
 ```bash
 http
 POST /v2/op/update
-With a payload that defines entity types, attributes, and relationships in JSON format.
 ```
+With a payload that defines entity types, attributes, and relationships in JSON format.
 
 🧠 Example Entities
 ```bash
