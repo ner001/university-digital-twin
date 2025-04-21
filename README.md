@@ -1,16 +1,6 @@
 # 🎓 University Digital Twin - NGSI-v2 with FIWARE Orion
 
-This project models a digital twin of a university using FIWARE's Orion Context Broker and the NGSI-v2 API standard. It defines and manages virtual representations (entities) of real-world university components such as buildings, classrooms, students, and professors.
-
----
-
-## 🚀 What’s Inside?
-
-- 🏛️ University entity
-- 🏢 Buildings linked to the university
-- 🧑‍🏫 Professors assigned to classrooms
-- 🧑‍🎓 Students enrolled in the university
-- 🧩 Relationships like `partOf`, `locatedIn`, `teachesIn`, and `enrolledIn`
+This project models a digital twin of a university using FIWARE's Orion Context Broker and the NGSI-v2 API standard. It defines and manages virtual representations (entities) of real-world university components.
 
 ---
 
@@ -51,9 +41,6 @@ With a payload that defines entity types, attributes, and relationships in JSON 
 
 🧠 Example Entities
 ```bash
-University ➝ urn:ngsi-ld:University:univ001
-
-Building ➝ urn:ngsi-ld:Building:eng001 (with partOf relationship)
 
 Classroom ➝ urn:ngsi-ld:Classroom:CR101 (with locatedIn)
 
